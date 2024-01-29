@@ -1,0 +1,22 @@
+{
+  "name": "poster-enhancer",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "type": "module",
+  "scripts": {
+    "dev": "node --import tsx --env-file .env index.ts",
+    "prod": "tsx index.ts"
+  },
+  "keywords": [],
+  "author": "Armaldio",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/ffprobe": "^1.1.8",
+    "@types/node": "^20.11.7",
+    "tsx": "^4.7.0"
+  },
+  "dependencies": {
+    "ffprobe": "^1.1.2"
+  }
+}
